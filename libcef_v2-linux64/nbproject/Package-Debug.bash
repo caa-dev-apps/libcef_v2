@@ -9,10 +9,12 @@ TOP=`pwd`
 CND_PLATFORM=GNU-Linux-x86
 CND_CONF=Debug
 CND_DISTDIR=dist
-NBTMPDIR=build/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
+CND_BUILDDIR=build
+CND_DLIB_EXT=so
+NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblibcef_v2-linux64.so
-OUTPUT_BASENAME=liblibcef_v2-linux64.so
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblibcef_v2-linux64.${CND_DLIB_EXT}
+OUTPUT_BASENAME=liblibcef_v2-linux64.${CND_DLIB_EXT}
 PACKAGE_TOP_DIR=liblibcefv2-linux64.so/
 
 # Functions
