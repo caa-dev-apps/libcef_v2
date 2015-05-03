@@ -1,5 +1,5 @@
 # libcef_v2
-a small cpp and lua project for processing cef files v1.0.0
+a project for processing cef files v1.0.0. (code in lua and cpp)
 
 libcef_v2:
 - A merger of two older google-code hosted projects libcef (efw PartA/B processing) and the cef2cef interpolation code. Slight variations in results from the original cef2cef interpolations are to be expected as a different method of calculating interpolation values is used. 
@@ -9,16 +9,23 @@ NEW Recipes:
 
 efw_L2_A-recipe (CIS-CODIF)
     efw_L2_A.lua
+    
 efw_L3_B-recipe (CIS-HIA)
     efw_L3_B.lua
+    
 peace_A1-recipe (peace)
     peace_A1.lua
+    
 peace_A2-recipe (codif)
     peace_A2.lua
+    
 peace_A3-recipe (hia)
     peace_A3.lua
 
 
+    
+    
+    
     
     
 #Interpolation + Transposition.
