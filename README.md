@@ -1,5 +1,5 @@
 # libcef_v2
-a small cpp and lua project for processing cef files
+a small cpp and lua project for processing cef files v1.0.0
 
 libcef_v2:
 - A merger of two older google-code hosted projects libcef (efw PartA/B processing) and the cef2cef interpolation code. Slight variations in results from the original cef2cef interpolations are to be expected as a different method of calculating interpolation values is used. 
