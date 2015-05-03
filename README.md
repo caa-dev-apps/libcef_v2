@@ -9,19 +9,19 @@ NEW Recipes:
 
 1. [efw_L2_A-recipe (CIS-CODIF)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/efw_L2_A-recipe.md)
 
-- [efw_L2_A.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L2_A.lua)
+-- [efw_L2_A.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L2_A.lua)
     
 2. [efw_L3_B-recipe (CIS-HIA)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/efw_L3_B-recipe.md)
-- [efw_L3_B.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L3_B.lua)
+-- [efw_L3_B.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L3_B.lua)
     
 3. [peace_A1-recipe (peace)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A1-recipe.md)
-- [peace_A1.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A1.lua)
+-- [peace_A1.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A1.lua)
     
 4. [peace_A2-recipe (codif)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A2-recipe.md)
-- [peace_A2.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A2.lua)
+-- [peace_A2.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A2.lua)
     
 5. [peace_A3-recipe (hia)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A3-recipe.md)
-- [peace_A3.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A3.lua)
+-- [peace_A3.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A3.lua)
 
 
 
