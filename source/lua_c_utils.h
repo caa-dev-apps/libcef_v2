@@ -1,0 +1,17 @@
+#ifndef LUA_C_UTILS_INCLUDED
+#define LUA_C_UTILS_INCLUDED
+
+///////////////////////////////////////////////////////////////////////////
+//
+
+#include <lua.hpp>
+
+extern int c_utils_mkdir(lua_State *L);
+extern int c_utils_file_exists(lua_State *L);
+
+///////////////////////////////////////////////////////////////////////////
+//
+
+
+#endif // LUA_C_UTILS_INCLUDED
+

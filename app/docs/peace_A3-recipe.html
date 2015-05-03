@@ -1,0 +1,415 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>peace_A3-recipe.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 5px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 16px;
+    padding: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 22px;
+    margin: 20px 0 6px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+a:visited {
+    color: purple;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+    margin-left: 44px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 540px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 2em;
+    margin-left:0;
+    max-width: 476px;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+}
+/* override default chrome & firefox settings */
+input:not([type="image"]), textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+label,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+input[type=text],
+input[type=password],
+textarea,
+select {
+  display: inline-block;
+  width: 210px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+select, input[type=file] {
+  height: 27px;
+  line-height: 27px;
+}
+textarea {
+  height: auto;
+}
+
+/* grey out placeholders */
+:-moz-placeholder {
+  color: #bfbfbf;
+}
+::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* buttons */
+button {
+  display: inline-block;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  background-image: linear-gradient(top, #049cdb, #0064cd);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #004b9a;
+  border-bottom-color: #003f81;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  color: #fff;
+  background-position: 0 -15px;
+  text-decoration: none;
+}
+button:active {
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) */
+</style>
+</head>
+<body>
+<h1>About:</h1>
+
+<pre><code>Product name: peace-A3
+
+Changelog:
+    Release: 01
+    Date:  2 May 2012
+    Changes: Initial release 
+</code></pre>
+
+<h1>CEF Inputs:</h1>
+
+<pre><code>#0  
+    File: HIA_ONBOARD_MOMENTS
+        - time_tags__:                      T0
+        - velocity_gse__ [0,1,2]:           Rx,Ry,Rz
+        - velocity_isr2__[0,1,2]:           Sx,Sy,Sz
+
+#1
+    File: FGM_5VPS
+        - time_tags__:                      T1
+        - B_vec_xyz_gse__[0,1,2]:           Bx0,By0,Bz0
+    use_averages:                           true
+
+#2
+     File: AUX_POSGSE_1M
+        - time_tags__:                      T2
+        - sc_v_xyz_gse__[0,1,2]:            Wx0,Wy0,Wz0
+
+#3
+     File: SP_AUX_LatLong
+        - time_tags__:                      T3
+        - sc_at${space_craft_id}_lat        Lat                     
+        - sc_at${space_craft_id}_long       Long
+</code></pre>
+
+<h1>Product Function:</h1>
+
+<pre><code>in: Rx,Ry,Rz,Sx,Sy,Sz,
+    Bx0,By0,Bz0,Bnumber,                              
+    Wx0,Wy0,Wz0,                                      
+    Lat,Long,
+    T0
+
+2c.
+    Bx1,By1,Bz1 = transform_gse_2_isr2(Bx0,By0,Bz0,Lat,Long)          
+
+2d. Calculate unit vector of B
+
+    Bt0 = sqrt(Bx0^2+By0^2+Bz0^2)
+    bx0 = Bx0/Bt0
+    by0 = By0/Bt0
+    bz0 = Bz0/Bt0
+
+    Bt1 = sqrt(Bx1^2+By1^2+Bz1^2)
+    bx1 = Bx1/Bt1
+    by1 = By1/Bt1
+    bz1 = Bz1/Bt1
+
+3. Calculate the velocity in GSE in inertial frame                            
+
+    R1x = Rx - Wx0                                                    
+    R1y = Ry - Wy0
+    R1z = Rz - Wz0
+
+4c. Calculate spacecraft velocity in ISR2        
+
+    Wx1,Wy1,Wz1 = transform_gse_2_isr2(Wx0,Wy0,Wz0,Lat,Long)          
+
+4d. Calculate the velocity in ISR2 in inertial frame        
+
+    S1x = Sx - Wx1
+    S1y = Sy - Wy1
+    S1z = Sz - Wz1
+
+5a. Calculate parallel component of velocity in GSE/ISR2 in inertial frame, called R1par (GSE) and V1par (ISR2), with components:
+
+    RR = R1x*bx0 + R1y*by0 + R1z*bz0
+
+    R1parX = RR*bx0                                            
+    R1parY = RR*by0
+    R1parZ = RR*bz0
+
+    SS = S1x*bx1 + S1y*by1 + S1z*bz1
+
+    S1parX = SS*bx1
+    S1parY = SS*by1
+    S1parZ = SS*bz1
+
+5b. Calculate perpendicular component of velocity in GSE/ISR2 in inertial frame, called R1p (GSE) and V1p (ISR2), with components:
+
+    R1px = R1x - R1parX                                         
+    R1py = R1y - R1parY         
+    R1pz = R1z - R1parZ         
+
+    S1px = S1x - S1parX         
+    S1py = S1y - S1parY         
+    S1pz = S1z - S1parZ         
+
+6. Calculate E-field in GSE/ISR2 (inertial frame)
+6a. Calculate the electric field of the drift velocity in GSE/ISR2 in inertial frame, called E1 (GSE) and E2 (ISR2), with components:
+
+    E1x = R1py*Bz0 - R1pz*By0                                  
+    E1y = R1pz*Bx0 - R1px*Bz0 
+    E1z = R1px*By0 - R1py*Bx0 
+
+    E2x = S1py*Bz1 - S1pz*By1 
+    E2y = S1pz*Bx1 - S1px*Bz1 
+    E2z = S1px*By1 - S1py*Bx1 
+</code></pre>
+
+<h1>Products:</h1>
+
+<pre><code>8.  Datasets:
+        C?_CP_CIS-HIA_ONBOARD_MOMENTS_ISR2_INERT:
+            T0,            
+            R1x,R1y,R1z,
+            S1x,S1y,S1z,
+            R1px,R1py,R1pz,
+            S1px,S1py,S1pz,
+            R1parX,R1parY,R1parZ,
+            S1parX,S1parY,S1parZ,
+            E1x,E1y,E1z,
+            E2x,E2y,E2z,
+            Rx,Ry,Rz,Sx,Sy,Sz,
+            Bx0,By0,Bz0,Bnumber,            
+            Wx0,Wy0,Wz0,                      
+            Lat,Long            
+</code></pre>
+
+<h1>Notes:</h1>
+
+<pre><code>- CEH Files:
+    7. Create new variables                              
+       Note variable names follow the CIS naming convention                               
+
+        R1x,R1y,R1z,                    velocity_gse_inert                             
+        S1x,S1y,S1z,                    velocity_isr2_inert                             
+        R1px,R1py,R1pz,                 velocity_perp_gse _inert                        
+        S1px,S1py,S1pz,                 velocity_perp _isr2_inert                       
+        R1parX,R1parY,R1parZ,           velocity_par_gse_inert                          
+        S1parX,S1parY,S1parZ,           velocity_par_isr2_inert                         
+        E1x,E1y,E1z,                    Efield_gse_inert                                
+        E2x,E2y,E2z,                    Efield _isr2_inert         
+</code></pre>
+
+</body>
+</html><!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

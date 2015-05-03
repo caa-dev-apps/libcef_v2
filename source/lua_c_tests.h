@@ -1,0 +1,18 @@
+#ifndef LUA_C_TESTS_INCLUDED
+#define LUA_C_TESTS_INCLUDED
+
+///////////////////////////////////////////////////////////////////////////
+//
+
+#include <lua.hpp>
+
+extern int c_test_iso_time(lua_State *L);
+extern int c_test_iso_time_in_delta_range(lua_State *L);
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+
+
+#endif // LUA_C_TESTS_INCLUDED
+
