@@ -1,43 +1,37 @@
-# libcef_v2
-a project for processing cef files v1.0.0. (code in lua and cpp)
+## libcef_v2:
+A project for Interpolation + Transposition Processing of cef files. (code in lua and cpp)
 
-libcef_v2:
+## Overview:
 - A merger of two older google-code hosted projects libcef (efw PartA/B processing) and the cef2cef interpolation code. Slight variations in results from the original cef2cef interpolations are to be expected as a different method of calculating interpolation values is used. 
-
+ 
 NEW Recipes:
 5 recipes and the corresponding lua scripts for use in conjunction with libcef_v2 are detailed here:
 
-efw_L2_A-recipe (CIS-CODIF)
-    efw_L2_A.lua
+1. [efw_L2_A-recipe (CIS-CODIF)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/efw_L2_A-recipe.md)
+--* [efw_L2_A.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L2_A.lua)
     
-efw_L3_B-recipe (CIS-HIA)
-    efw_L3_B.lua
+2. [efw_L3_B-recipe (CIS-HIA)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/efw_L3_B-recipe.md)
+--* [efw_L3_B.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/efw_L3_B.lua)
     
-peace_A1-recipe (peace)
-    peace_A1.lua
+3. [peace_A1-recipe (peace)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A1-recipe.md)
+--* [peace_A1.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A1.lua)
     
-peace_A2-recipe (codif)
-    peace_A2.lua
+4. [peace_A2-recipe (codif)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A2-recipe.md)
+--* [peace_A2.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A2.lua)
     
-peace_A3-recipe (hia)
-    peace_A3.lua
+5. [peace_A3-recipe (hia)](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/recipes/peace_A3-recipe.md)
+--* [peace_A3.lua](https://github.com/caa-dev-apps/libcef_v2/blob/v1.0.0/app/bin/peace_A3.lua)
 
 
-    
-    
-    
-    
-    
-#Interpolation + Transposition.
 
-Introduction
+## Introduction
 This code attempts to merge to original cef2cef transpose + interpolation functionality with the libecef code used to interpolate values used for the efw PartA/PartB products.
 
 The core functionality - interpolating a set of cef data files based on timings of the first in the cef dataset is written in C/C++ and contained in the libcef_v2.so library. High level lua code scripts contain the functionality for parsing the cef meta data, performing the mathematical functions (e.g. efw PartA/B) on the data read and final out put formating of the resulting data. The lua code provides a high degree of flexibility for further use-cases involving the creation of derived data sets based on data interpolation and transformation functions.
 
 See the example lua files in the app/bin folder for further ideas on the structure of the code.
 
-Usage
+## Usage
 The main application scripts are contained in the app/bin folder, along with the small luajit compiler/fast virtual machine.
 
    cd app/bin
@@ -59,13 +53,14 @@ The main application scripts are contained in the app/bin folder, along with the
                 lua code used by the app's in \bin
 To run the application scripts follow the following patterns.
 
-EDW PART A L2:
+## EDW PART A L2:
 --------------
         ./luajit ./efw_L2_part_A.lua  /path/EFW_L2  /path/AUX_PosGSE  /path/FGM  /path/AUX_LatLong /path/OUTPUT-FOLDER
-EDW PART B L3:
+## EDW PART B L3:
 --------------
         ./luajit ./efw_L3_part_B.lua  /path/EFW_L3  /path/AUX_PosGSE  /path/FGM  /path/AUX_LatLong /path/OUTPUT-FOLDER
-cef_2_cef_transform:
+        
+## cef_2_cef_transform:
 --------------------
 
         -from       [gse, isr, isr2]
