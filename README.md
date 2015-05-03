@@ -59,14 +59,12 @@ The main application scripts are contained in the app/bin folder, along with the
 To run the application scripts follow the following patterns.
 
 ## EDW PART A L2:
---------------
         ./luajit ./efw_L2_part_A.lua  /path/EFW_L2  /path/AUX_PosGSE  /path/FGM  /path/AUX_LatLong /path/OUTPUT-FOLDER
+        
 ## EDW PART B L3:
---------------
         ./luajit ./efw_L3_part_B.lua  /path/EFW_L3  /path/AUX_PosGSE  /path/FGM  /path/AUX_LatLong /path/OUTPUT-FOLDER
         
 ## cef_2_cef_transform:
---------------------
 
         -from       [gse, isr, isr2]
         -to         [gse, isr, isr2]
@@ -114,12 +112,13 @@ To run the application scripts follow the following patterns.
 
 
 
-    test e.g.
-           ./luajit ./cef_2_cef_transform.lua -from gse -to isr2 
-            -in /in-path/TESTS/C4_CP_EFW_L3_E3D_GSE__20071231_000000_20080101_000000_V100315.cef 
-            -aux /aux-path/TESTS/CL_SP_AUX__20071231_000000_20080101_000000_V090217.cef 
-            -out /out-path/TESTS/001/ 
-            -dataset AA_BB_CCC_DD_EEE_FFF 
-            -vars replace 
-            -maxlines 1000000
-             (for debug)    
+## test e.g.
+       ./luajit ./cef_2_cef_transform.lua -from gse -to isr2 
+        -in /in-path/TESTS/C4_CP_EFW_L3_E3D_GSE__20071231_000000_20080101_000000_V100315.cef 
+        -aux /aux-path/TESTS/CL_SP_AUX__20071231_000000_20080101_000000_V090217.cef 
+        -out /out-path/TESTS/001/ 
+        -dataset AA_BB_CCC_DD_EEE_FFF 
+        -vars replace 
+        -maxlines 1000000
+         (for debug)    
+             
