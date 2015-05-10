@@ -94,7 +94,7 @@ long SLineReader::next()
 
         //x if((*l_ptr >= '0') && (*l_ptr <= '9'))
         // 2015.05.01 Fix for when encountering a negative value as the 1st value in multiline record
-        if(((*l_ptr >= '0') && (*l_ptr <= '9')) || (*l_ptr =='-') || (*l_ptr =='"'))
+        if(((*l_ptr >= '0') && (*l_ptr <= '9')) || (*l_ptr =='-') || (*l_ptr =='"') || (*l_ptr ==','))
         {
             bool l_error = false;
             char *l_tok = NULL;
